@@ -1,0 +1,184 @@
+.timelineContainer {
+  margin: 10px 20px 0;
+  width: 100％;
+  height: 12vh;
+  background: rgba(0, 0, 0, 1);
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+}
+
+.pngContainer {
+  position: relative;
+  height: 600px;
+  top: 0;
+  left: 0;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  margin: 10px 10px 10px 10px;
+}
+
+.Googlelogo{
+  position: absolute;
+  bottom: -35px;
+  left: 142px;
+}
+.facebooklogo{
+  position: absolute;
+  bottom: -28px;
+  left: 290px;
+}
+.Youtubelogo{
+  position: absolute;
+  bottom: 56px;
+  left: 723px;
+}
+.house1{
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+}
+.facebook2{
+  position: absolute;
+  bottom: -53px;
+  left: 150px;
+}
+.topgoogle3{
+  position: absolute;
+  bottom: -37px;
+  left: 280px;
+}
+.bodygoogle3{
+  position: absolute;
+  bottom: -58px;
+  left: 287px;
+}
+.house4{
+  position: absolute;
+  bottom: -30px;
+  left: 430px;
+}
+.house5{
+  position: absolute;
+  bottom: -20px;
+  left: 580px;
+}
+.topyoutube6{
+  position: absolute;
+  bottom: -40px;
+  left: 620px;
+}
+.bodyyoutube6{
+  position: absolute;
+  bottom: -85px;
+  left: 629px;
+}
+.bottomyoutube6{
+  position: absolute;
+  bottom: -120px;
+  left: 620px;
+}
+.house7{
+  position: absolute;
+  bottom: -39px;
+  left: 853px;
+}
+.house8{
+  position: absolute;
+  bottom: -25px;
+  left: 1015px;
+}
+.n1{
+  position: absolute;
+  bottom: -40px;
+  left: -7px;
+}
+.n2{
+  position: absolute;
+  bottom: -55px;
+  left: 137px;
+}
+.n3bodygoogle{
+  position: absolute;
+  bottom: -55px;
+  left: 290px;
+}
+.n3topgoogle{
+  position: absolute;
+  bottom: -37px;
+  left: 280px;
+}
+.n4{
+  position: absolute;
+  bottom: -49px;
+  left: 415px;
+}
+.n5{
+  position: absolute;
+  bottom: -35px;
+  left: 543px;
+}
+.n6topyoutube{
+  position: absolute;
+  bottom: -40px;
+  left: 620px;
+}
+.n6bodyyoutube{
+  position: absolute;
+  bottom: -85px;
+  left: 638px;
+}
+.n6bottomyoutube{
+  position: absolute;
+  bottom: -120px;
+  left: 620px;
+}
+
+.n7{
+  position: absolute;
+  bottom: -45px;
+  left: 851px;
+}
+.n8{
+  position: absolute;
+  bottom: -25px;
+  left: 1014px;
+}
+
+.text{
+  color:black;
+  font-size: 8px;
+  position: relative;
+  top:30px;
+  left:470px;
+}
+.text2{
+  color:white;
+  font-size: 8px;
+  position: relative;
+  top:30px;
+  left:460px;
+}
+
+.facebooktext{
+
+}
+.Googletext{
+
+}
+.Youtubetext{
+
+}
+.facebooktext2{
+
+}
+.Googletext2{
+
+}
+.Youtubetext2{
+
+}
+
+.sun1{
+  position: absolute;
+  right:100px;
+  top:50px;
+}

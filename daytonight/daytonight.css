@@ -1,0 +1,54 @@
+
+$duration: 20s;
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: powderblue;
+  animation:
+    sky $duration linear infinite;
+}
+
+Sun {
+  width: 50vmin;
+  height: 50vmin;
+  border-radius: 50%;
+  // not exactly 50vmin (its size)
+  // to keep a buffer area for the
+  // blur (5%)
+  box-shadow: 52.5vmin 0 2.5vmin 0 gold;
+  // same reason
+  transform:
+    translateX(-105%);
+  animation:
+    eclipse $duration linear infinite;
+}
+
+@keyframes sky {
+  10%, 90% {
+    background: powderblue;
+  }
+
+  45%, 55% {
+    background: #111320;
+  }
+}
+
+@keyframes eclipse {
+  33.333333333% {
+    box-shadow: 17.5vmin 0 2.5vmin 0 gold;
+  }
+  50% {
+    box-shadow: 0 0 7.5vmin 0 orangered;
+  }
+  66.666666666% {
+    box-shadow: -17.5vmin 0 2.5vmin 0 gold;
+  }
+  to {
+    transform:
+      translateX(105%);
+    box-shadow: -52.5vmin 0 2.5vmin 0 gold;
+  }
+}
